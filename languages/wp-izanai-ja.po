@@ -1,0 +1,456 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Izanai\n"
+"POT-Creation-Date: 2016-11-23 00:34+0900\n"
+"PO-Revision-Date: 2016-12-06 22:35+0900\n"
+"Last-Translator: Dream Seeker Lab Unlimited <dev@abcnavi.com>\n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: src/class\n"
+
+#: izanai.php:47
+msgid "izanai-User"
+msgstr "izanaiユーザー"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:18
+msgid "Invitation on Facebook"
+msgstr "Facebook登録機能"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:74 src/class/izanai_common_settings_view.class.php:98
+#: src/class/izanai_user_from_SNS_view.class.php:84
+msgid "If you want to see the manual of this plugin, see the manual site. "
+msgstr "このプラグインの利用方法について詳細を知りたいときは公式マニュアルサイトをご覧ください。　"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:76
+msgid "Invitation On Facebook - Settings"
+msgstr "Facebook登録機能　利用設定"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:78 src/class/izanai_SNS_connect_settings_view.class.php:80
+msgid "No invitation"
+msgstr "Facebook登録なし"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:80 src/class/izanai_SNS_connect_view.class.php:81
+#: src/class/izanai_SNS_connect_view.class.php:131
+msgid "Set the facebook invitation button"
+msgstr "Facebook登録ボタンを設置"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:80 src/class/izanai_SNS_connect_view.class.php:42
+msgid "Force to invite on facebook"
+msgstr "強制的にFacebook登録へ転送"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:93 src/class/izanai_SNS_connect_settings_view.class.php:94
+msgid "Ridirect-URL after facebook registration"
+msgstr "登録後のリダイレクト先URL"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:93
+msgid "(If you input nothing, the redirect is not occurred.)"
+msgstr "（未入力時はリダイレクトしません）"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:98
+msgid "Facebook-Login-Button Settings"
+msgstr "Facebook登録ボタン設定"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:99
+msgid ""
+"Comment of Login-Button in \"Set the facebook invitation button\" mode. ( If you input nothing, \"Facebook Login\" is "
+"displayed. )"
+msgstr "Facebook登録ボタンに表示する文字列　未入力時は Facebook Login と表示されます"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:100
+msgid "Comment of Login-Button in \"Set the facebook invitation button\" mode."
+msgstr "Facebook登録ボタンに表示する文字列"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:102
+msgid "Set the size and the shape of Login-Button in \"Set the facebook invitation button\" mode."
+msgstr "登録ボタンの大きさ、形を設定してください（「Facebook登録ボタンを設置」を選択している場合）。"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:105
+msgid "Character Size (px)"
+msgstr "文字の大きさ（px）"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:106
+msgid "Vertical Margin Size (px)"
+msgstr "文字・ボタン間の余白（縦）"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:107
+msgid "Horizontal Margin Size (px)"
+msgstr "文字・ボタン間の余白（横）"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:108
+msgid "Corner Roundings (px)"
+msgstr "ボタンの角の丸み（px）"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:109
+msgid "Shadow Size (px)"
+msgstr "ボタンの影の大きさ（px）"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:120
+msgid "Set the below colors of Login-Button in \"Set the facebook invitation button\" mode."
+msgstr "登録ボタンの色を設定してください（「Facebook登録ボタンを設置」を選択している場合）。"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:123
+msgid "Where"
+msgstr "文字・ボタン背景"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:124
+msgid "Mouse Out"
+msgstr "通常時"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:125
+msgid "Mouse Over"
+msgstr "マウス通過時"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:126
+msgid "On Click"
+msgstr "マウスクリック時"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:129
+msgid "Character Color"
+msgstr "文字の色"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:135
+msgid "Button Color"
+msgstr "ボタン背景の色"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:144
+msgid "Inpu the mail-information for the registered user."
+msgstr "登録者宛メール設定"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:145 src/class/izanai_SNS_connect_settings_view.class.php:146
+msgid "Name of From: for the registered user ( If you input nothing, the name in izanai-Settings is assigned.)"
+msgstr "登録者宛メール・差出人名　未入力時はizanai設定に従います。"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:147 src/class/izanai_SNS_connect_settings_view.class.php:148
+msgid "From: for the registered user ( If you input nothing, the address in izanai-Settings is assigned.)"
+msgstr "登録者宛メール・差出人アドレス　未入力時はizanai設定に従います。"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:149
+msgid "Subject: for the registered user. If you input nothing, the subject is setted to..."
+msgstr "登録者宛メール・件名　未入力時は次のようになります。："
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:150
+msgid "mail subject"
+msgstr "メール件名"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:151
+msgid "Text: for the registered user ( If you input nothing, the mail is not sent.)"
+msgstr "登録者宛メール・メール本文　未入力時はメールが送付されません。"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:152
+msgid "Text: for the registered user"
+msgstr "メール本文"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:156
+msgid "Inpu the mail-information for the site administrator."
+msgstr "管理者宛メール設定"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:157 src/class/izanai_SNS_connect_settings_view.class.php:158
+msgid "Name of From: for the site administrator ( If you input nothing, the name in izanai-Settings is assigned.)"
+msgstr "管理者宛メール・差出人名　未入力時はizanai設定に従います。"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:159 src/class/izanai_SNS_connect_settings_view.class.php:160
+msgid "From: for the site administrator ( If you input nothing, the address in izanai-Settings is assigned.)"
+msgstr "管理者宛メール・差出人アドレス　未入力時はizanai設定に従います。"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:161 src/class/izanai_SNS_connect_settings_view.class.php:162
+msgid "To: for the site administrator ( If you input nothing, the address in izanai-Settings is assigned.)"
+msgstr "管理者宛メール・送付先（To）　未入力時はizanai設定に従います。"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:163 src/class/izanai_SNS_connect_settings_view.class.php:164
+msgid "Cc: for the site administrator ( If you input nothing, the address in izanai-Settings is assigned.)"
+msgstr "管理者宛メール・送付先（Cc）　未入力時はizanai設定に従います。"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:165 src/class/izanai_SNS_connect_settings_view.class.php:166
+msgid "Bcc: for the site administrator ( If you input nothing, the address in izanai-Settings is assigned.)"
+msgstr "管理者宛メール・送付先（Bcc）　未入力時はizanai設定に従います。"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:167
+msgid "Subject: for the site administrator. If you input nothing, the subject is setted to..."
+msgstr "管理者宛メール・件名　未入力時は次のようになります。："
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:168
+msgid "mail subject for the site administrator"
+msgstr "管理者宛メール・件名"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:169
+msgid "Text: for the site administrator ( If you input nothing, the mail is not sent.)"
+msgstr "管理者宛メール・メール本文　未入力時はメールが送付されません。"
+
+#: src/class/izanai_SNS_connect_settings_view.class.php:170
+msgid "Text: for the site administrator"
+msgstr "管理者宛メール・メール本文"
+
+#: src/class/izanai_cancel_page_view.class.php:71
+msgid "Input your mail address for de-registration :"
+msgstr "退会希望メールアドレス："
+
+#: src/class/izanai_cancel_page_view.class.php:72
+msgid "de-registration"
+msgstr "登録解除"
+
+#: src/class/izanai_common_settings_view.class.php:28
+msgid "izanai-Settings"
+msgstr "izanai 設定"
+
+#: src/class/izanai_common_settings_view.class.php:38
+msgid "You do not have sufficient permissions to access this page."
+msgstr "このページにアクセスする権限がありません。"
+
+#: src/class/izanai_common_settings_view.class.php:96
+msgid "izanai Settings"
+msgstr "izanai 設定"
+
+#: src/class/izanai_common_settings_view.class.php:102
+msgid "Input your App ID and App Secret you got in facebook for developers."
+msgstr "facebook for developers で取得したアプリID（App ID）とアプリのパスワード（App Secret）を入力してください。"
+
+#: src/class/izanai_common_settings_view.class.php:103
+msgid "Facebook App ID"
+msgstr "Facebookアプリ・ID"
+
+#: src/class/izanai_common_settings_view.class.php:104
+msgid "Facebook App Secret"
+msgstr "Facebookアプリ・パスワード"
+
+#: src/class/izanai_common_settings_view.class.php:106
+msgid "Input the information you want to get from facebook."
+msgstr "Facebookから取得したい情報を入力してください。"
+
+#: src/class/izanai_common_settings_view.class.php:108 src/class/izanai_common_settings_view.class.php:110
+#: src/class/izanai_user_from_SNS_view.class.php:111 src/class/izanai_user_from_SNS_view.class.php:308
+#: src/class/izanai_user_from_SNS_view.class.php:384
+msgid "User birthday"
+msgstr "生年月日"
+
+#: src/class/izanai_common_settings_view.class.php:108 src/class/izanai_common_settings_view.class.php:110
+#: src/class/izanai_common_settings_view.class.php:113 src/class/izanai_common_settings_view.class.php:115
+msgid "I want to get."
+msgstr "取得します"
+
+#: src/class/izanai_common_settings_view.class.php:108 src/class/izanai_common_settings_view.class.php:110
+#: src/class/izanai_common_settings_view.class.php:113 src/class/izanai_common_settings_view.class.php:115
+msgid "I don't want to get."
+msgstr "取得しません"
+
+#: src/class/izanai_common_settings_view.class.php:113 src/class/izanai_common_settings_view.class.php:115
+#: src/class/izanai_user_from_SNS_view.class.php:119 src/class/izanai_user_from_SNS_view.class.php:309
+#: src/class/izanai_user_from_SNS_view.class.php:385
+msgid "User location"
+msgstr "居住地"
+
+#: src/class/izanai_common_settings_view.class.php:118
+msgid "Input the information of the mail sent at your registration time."
+msgstr "登録時に送信されるメールの宛先アドレスに関する情報を入力してください。"
+
+#: src/class/izanai_common_settings_view.class.php:119
+msgid "Name (From) sent to the registered user"
+msgstr "登録者宛メール・差出人名"
+
+#: src/class/izanai_common_settings_view.class.php:120
+msgid "Mail-Address (From) sent to the registered user"
+msgstr "登録者宛メール・差出人アドレス"
+
+#: src/class/izanai_common_settings_view.class.php:121 src/class/izanai_common_settings_view.class.php:132
+msgid "Name (From) sent to the site administrator"
+msgstr "管理者宛メール・差出人名"
+
+#: src/class/izanai_common_settings_view.class.php:122 src/class/izanai_common_settings_view.class.php:133
+msgid "Mail-Address (From) sent to the site administrator"
+msgstr "管理者宛メール・差出人アドレス"
+
+#: src/class/izanai_common_settings_view.class.php:123 src/class/izanai_common_settings_view.class.php:134
+msgid "Mail-Address (To) sent to the site administrator"
+msgstr "管理者宛メール・送付先アドレス (To)"
+
+#: src/class/izanai_common_settings_view.class.php:124 src/class/izanai_common_settings_view.class.php:135
+msgid "Mail-Address (Cc) sent to the site administrator"
+msgstr "管理者宛メール・送付先アドレス (Cc)"
+
+#: src/class/izanai_common_settings_view.class.php:125 src/class/izanai_common_settings_view.class.php:136
+msgid "Mail-Address (Bcc) sent to the site administrator"
+msgstr "管理者宛メール・送付先アドレス (Bcc)"
+
+#: src/class/izanai_common_settings_view.class.php:127
+msgid "Input the information of the mail sent at your deregistration time."
+msgstr "登録解除時に送信されるメールに関する情報を入力してください。"
+
+#: src/class/izanai_common_settings_view.class.php:128
+msgid "Name (From) sent to the deregistered user"
+msgstr "登録解除者宛メール・差出人名"
+
+#: src/class/izanai_common_settings_view.class.php:129
+msgid "Mail-Address (From) sent to the deregistered user"
+msgstr "登録解除者宛メール・差出人アドレス"
+
+#: src/class/izanai_common_settings_view.class.php:130
+msgid "Mail-Subject sent to the deregistered user"
+msgstr "登録解除者宛メール件名"
+
+#: src/class/izanai_common_settings_view.class.php:131
+msgid "Mail-Text sent to the deregistered user"
+msgstr "登録解除者宛メール本文"
+
+#: src/class/izanai_common_settings_view.class.php:137
+msgid "Mail-Subject sent to the site administrator"
+msgstr "管理者宛メール件名"
+
+#: src/class/izanai_common_settings_view.class.php:138
+msgid "Mail-Text sent to the site administrator"
+msgstr "管理者宛メール本文"
+
+#: src/class/izanai_common_settings_view.class.php:140
+msgid "Input the character encoding of the izanai-User-List CSV file"
+msgstr "izanaiユーザー一覧CSV出力の際の文字コードを指定してください。"
+
+#: src/class/izanai_common_settings_view.class.php:141
+msgid "the character encoding"
+msgstr "文字コード"
+
+#: src/class/izanai_common_settings_view.class.php:152
+msgid "Submit"
+msgstr "登録"
+
+#: src/class/izanai_mail_control.class.php:153 src/class/izanai_mail_control.class.php:218
+#: src/class/izanai_mail_control.class.php:238 src/class/izanai_mail_control.class.php:257
+msgid "User_from_SNS"
+msgstr "登録者"
+
+#: src/class/izanai_posts_pages_control.class.php:21
+msgid "If you want de-registration from this site, write your mail-address and push the de-registration button."
+msgstr "登録解除を希望される方は、メールアドレスをご記入の上「登録解除」ボタンを押してください。"
+
+#: src/class/izanai_user_from_SNS_control.class.php:392 src/class/izanai_user_from_SNS_control.class.php:406
+#: src/class/izanai_user_from_SNS_control.class.php:421 src/class/izanai_user_from_SNS_control.class.php:436
+#: src/class/izanai_user_from_SNS_control.class.php:463 src/class/izanai_user_from_SNS_control.class.php:497
+#: src/class/izanai_user_from_SNS_control.class.php:498 src/class/izanai_user_from_SNS_control.class.php:499
+#: src/class/izanai_user_from_SNS_control.class.php:500 src/class/izanai_user_from_SNS_view.class.php:74
+#: src/class/izanai_user_from_SNS_view.class.php:75 src/class/izanai_user_from_SNS_view.class.php:76
+#: src/class/izanai_user_from_SNS_view.class.php:77 src/class/izanai_user_from_SNS_view.class.php:78
+#: src/class/izanai_user_from_SNS_view.class.php:126 src/class/izanai_user_from_SNS_view.class.php:127
+#: src/class/izanai_user_from_SNS_view.class.php:129
+msgid "ALL"
+msgstr "すべて"
+
+#: src/class/izanai_user_from_SNS_view.class.php:42
+msgid "izanai-Users-List"
+msgstr "izanaiユーザー一覧"
+
+#: src/class/izanai_user_from_SNS_view.class.php:53 src/class/izanai_user_from_SNS_view.class.php:254
+msgid "Search"
+msgstr "検索する"
+
+#: src/class/izanai_user_from_SNS_view.class.php:53 src/class/izanai_user_from_SNS_view.class.php:255
+#: src/class/izanai_user_from_SNS_view.class.php:356
+msgid "Output Search-Result"
+msgstr "検索結果をCSV形式で出力する"
+
+#: src/class/izanai_user_from_SNS_view.class.php:82
+msgid "izanai Users List"
+msgstr "izanaiユーザー一覧"
+
+#: src/class/izanai_user_from_SNS_view.class.php:86
+msgid ""
+"Set conditions and put \"Search\" button, and list the izanai-users who meet conditions. ( If conditions is not set, all "
+"izanai-users are listed.)"
+msgstr ""
+"条件を設定し「検索する」を押すと条件に適合したユーザーが表示されます。（条件を設定しないで押せばizanaiによって登録された全"
+"ユーザーが表示されます。）"
+
+#: src/class/izanai_user_from_SNS_view.class.php:87
+msgid "Set conditions and put \"Output Search-Result\" button, and Output CSV file of the search-result."
+msgstr "条件を設定し「検索結果をCSV形式で出力する」を押すと条件に適合したユーザー情報が外部データ（CSV形式）に出力されます。"
+
+#: src/class/izanai_user_from_SNS_view.class.php:95 src/class/izanai_user_from_SNS_view.class.php:304
+#: src/class/izanai_user_from_SNS_view.class.php:380
+msgid "User name"
+msgstr "登録者名"
+
+#: src/class/izanai_user_from_SNS_view.class.php:99 src/class/izanai_user_from_SNS_view.class.php:303
+#: src/class/izanai_user_from_SNS_view.class.php:379
+msgid "Date of registration"
+msgstr "登録日"
+
+#: src/class/izanai_user_from_SNS_view.class.php:102 src/class/izanai_user_from_SNS_view.class.php:114
+msgid "--"
+msgstr "～"
+
+#: src/class/izanai_user_from_SNS_view.class.php:107 src/class/izanai_user_from_SNS_view.class.php:307
+#: src/class/izanai_user_from_SNS_view.class.php:383
+msgid "User e-mail"
+msgstr "Eメール"
+
+#: src/class/izanai_user_from_SNS_view.class.php:123
+msgid "Month of user birthday"
+msgstr "誕生月"
+
+#: src/class/izanai_user_from_SNS_view.class.php:192
+msgid "(month)"
+msgstr "月"
+
+#: src/class/izanai_user_from_SNS_view.class.php:196 src/class/izanai_user_from_SNS_view.class.php:306
+#: src/class/izanai_user_from_SNS_view.class.php:382
+msgid "User gender"
+msgstr "性別"
+
+#: src/class/izanai_user_from_SNS_view.class.php:209
+msgid "Categories of the post or page in registration"
+msgstr "登録記事カテゴリー"
+
+#: src/class/izanai_user_from_SNS_view.class.php:224
+msgid "Title of the post or page in registration"
+msgstr "登録記事（タイトル）"
+
+#: src/class/izanai_user_from_SNS_view.class.php:237
+msgid "URL of the post or page in registration"
+msgstr "登録記事（URL）"
+
+#: src/class/izanai_user_from_SNS_view.class.php:256
+msgid "Initializing the values"
+msgstr "入力内容をリセットする"
+
+#: src/class/izanai_user_from_SNS_view.class.php:301 src/class/izanai_user_from_SNS_view.class.php:378
+msgid "ID"
+msgstr "ID"
+
+#: src/class/izanai_user_from_SNS_view.class.php:302 src/class/izanai_user_from_SNS_view.class.php:389
+msgid "SNS"
+msgstr "SNS"
+
+#: src/class/izanai_user_from_SNS_view.class.php:305 src/class/izanai_user_from_SNS_view.class.php:381
+msgid "User Login"
+msgstr "ログイン名 "
+
+#: src/class/izanai_user_from_SNS_view.class.php:310 src/class/izanai_user_from_SNS_view.class.php:386
+msgid "izanai-Page"
+msgstr "登録記事（URL）"
+
+#: src/class/izanai_user_from_SNS_view.class.php:311 src/class/izanai_user_from_SNS_view.class.php:387
+msgid "izanai-Page-Title"
+msgstr "登録記事（タイトル）"
+
+#: src/class/izanai_user_from_SNS_view.class.php:312 src/class/izanai_user_from_SNS_view.class.php:388
+msgid "izanai-Page-Categories"
+msgstr "登録記事（カテゴリー）"
+
+#: src/class/izanai_user_from_SNS_view.class.php:329
+msgid "izanai Users Search-Result List"
+msgstr "izanaiユーザー 検索結果"
+
+#: src/class/izanai_user_from_SNS_view.class.php:390
+msgid "Facebook-ID"
+msgstr "Facebook ID"
+
+#. Description of the plugin/theme
+msgid "This plugin gives your site some functions for web-marketing, for example, making invitations on Facebook, and so on."
+msgstr ""
+"このプラグインはあなたのサイトに Web マーケティングをするために必要な機能（例えば、Facebook アカウントを使った招待機能、な"
+"ど）を追加してくれます。"
